@@ -9,9 +9,6 @@ export default function Sidebar() {
   const { categories } = useQuiosco()
   const [visible, setVisible] = useState(false)
 
-
-
-
   return (
     <>
       <div className="flex justify-center mt-3 ">
