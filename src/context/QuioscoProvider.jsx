@@ -71,7 +71,7 @@ const QuioscoProvider = ({ children }) => {
         e.preventDefault()
 
         try {
-            const url = "http://localhost:3000/api/order"
+            const url = "api/order"
             await fetch(url, {
                 headers: { "Content-Type": "application/json" },
                 method: "POST",
